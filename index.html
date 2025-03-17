@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=content_copy" />
+    <title>Advanced Border Radius</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Advanced Border Radius</h1>
+    </header>
+
+
+    <div id="shape-container">
+
+        <div id="shape">
+            <input type="range" class="slider tl" id="tl-h-slider" value="20" min="0" max="100">
+            <input type="range" class="slider tl top-v" id="tl-v-slider" value="20" min="0" max="100">
+
+            <input type="range" class="slider tr" id="tr-h-slider" value="20" min="0" max="100">
+            <input type="range" class="slider tr top-v" id="tr-v-slider" value="20" min="0" max="100">
+
+            <input type="range" class="slider br" id="br-h-slider" value="20" min="0" max="100">
+            <input type="range" class="slider br bottom-v" id="br-v-slider" value="20" min="0" max="100">
+
+            <input type="range" class="slider bl" id="bl-h-slider" value="20" min="0" max="100">
+            <input type="range" class="slider bl bottom-v" id="bl-v-slider" value="20" min="0" max="100">
+        </div>
+
+    </div>
+
+    <div id="values-container">
+        <div id="values-wrapper"></div>
+    </div>
+
+    <div id="copy-msg">
+        Copied to Clipboard
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
